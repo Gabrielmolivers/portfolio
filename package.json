@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Mozza Tech - Portfolio com React e Framer Motion",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabrielmolivers/portfolio.git"
+  },
+  "keywords": ["react", "vite", "framer-motion", "portfolio"],
+  "author": "Mozza Tech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabrielmolivers/portfolio/issues"
+  },
+  "homepage": "https://github.com/Gabrielmolivers/portfolio#readme",
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "framer-motion": "^12.23.26",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "vite": "^7.3.0"
+  }
+}
