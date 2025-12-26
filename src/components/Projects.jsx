@@ -115,6 +115,14 @@ const Projects = () => {
             </div>
             <h3>{project.title}</h3>
             <p>{project.description}</p>
+            <div className="screen-frame" style={{marginBottom: '12px'}}>
+              <img
+                src={`/${project.image}`}
+                alt={`Imagem do projeto ${project.title}`}
+                loading="lazy"
+                style={{ display: 'block', width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
+            </div>
             <motion.a
               className="project-link"
               href={project.link}
@@ -219,7 +227,7 @@ const Projects = () => {
               }}
             >
               <img
-                src={`/assets/${screen.image}`}
+                src={`/${screen.image}`}
                 alt={`Tela ${screen.title}`}
                 loading="lazy"
                 style={{ display: 'block', width: '100%', height: 'auto' }}

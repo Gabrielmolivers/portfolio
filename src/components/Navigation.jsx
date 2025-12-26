@@ -29,7 +29,7 @@ const Navigation = () => {
           <div className="logo" aria-hidden="true">
             <img
               className="logo-img"
-              src="/assets/logo_sem_fundo.svg"
+              src="/logo_sem_fundo.svg"
               alt="Logo Mozza Tech"
             />
           </div>
